@@ -14,6 +14,7 @@ import AboutPage from "./pages/about";
 import ContactPage from "./pages/contact";
 import SigninPage from "./pages/signin";
 import SignupPage from "./pages/signup";
+import SignupPage from "./pages/aml-policy";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/contact" component={ContactPage} exact />
         <Route path="/login" component={SigninPage} exact />
         <Route path="/signup" component={SignupPage} exact />
+        <Route path="/contact" component={AmlpolicyPage} exact />
 
         <Route path="/shop" component={ShopPage} exact />
       </Switch>
