@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import HeroSection from "../components/AmlPolicyHeroSection/index";
-import InfoSection from "../components/AmlPolicyInfoSection";
+import AmlPolicyHeroSection from "../components/AmlPolicyHeroSection/index";
+import AmlPolicyInfoSection from "../components/AmlPolicyInfoSection";
 import { AmlPolicyObjOne, AmlPolicyObjThree, AmlPolicyObjTwo } from "../components/AmlPolicyInfoSection/Data";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
