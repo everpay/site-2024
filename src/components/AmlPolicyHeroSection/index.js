@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import {
   HeroBg,
   HeroBtnWrapper,
@@ -7,9 +6,10 @@ import {
   HeroContent,
   HeroH1,
   HeroP,
-} from "./AmlpolicyElements";
+} from "./AmlPolicyHeroElements.js";
 
-export const AmlPolicy = () => {
+const AmlPolicyHeroSection = () => {
+
   return (
     <HeroContainer>
       <HeroBg>
@@ -23,3 +23,7 @@ export const AmlPolicy = () => {
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>
+  );
+};
+
+export default AmlPolicyHeroSection;
