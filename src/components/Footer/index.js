@@ -121,16 +121,16 @@ const Footer = () => {
 </FooterDivider>
       <SocialMedia>
         <SocialMediaWrap>
-          <WebsiteRights>© Everpay Corporation 2009 - {new Date().getFullYear()} - All rights reserved.</WebsiteRights>
-          <WebsiteLegal> Terms | Privacy | Cookies | AML Policy | Security </WebsiteLegal>
+          <WebsiteRights>© Everpay Corporation 2009 - {new Date().getFullYear()}.  All rights reserved.</WebsiteRights>
+          <WebsiteLegal><FooterLink to="/terms"> Terms</FooterLink> | <FooterLink to="/privacy">Privacy</FooterLink> | <FooterLink to="/cookies">Cookies</FooterLink> | <FooterLink to="/aml-policy">AML Policy</FooterLink> | <FooterLink to="/security">Security</FooterLink> </WebsiteLegal>
         </SocialMediaWrap>
       </SocialMedia>
 
         <FooterMediaWrap>
            <FooterTermItems>
-              <FooterTermLine> Everpay and its featured customers are financial technology companies and not banks. Account deposit services are provided by Everpay’s banking as a service providers, selected electronic money institutions and partner banks who are Member FDIC.</FooterTermLine>
+              <FooterTermLine> Everpay and its featured customers are financial technology companies and not banks. Account deposit services are provided by Everpay’s banking as service providers, selected electronic money institutions, and partner banks who are Member FDIC.</FooterTermLine>
               <FooterTermLine> All brand names and logos are the property of their respective owners.  </FooterTermLine>
-              <FooterTermLine> The Everpay Debit Cards are issued by Edebit Group and Railsr, pursuant to licenses from MasterCard. The Biga Card is issued by Licensed electronic money instituions, Member FDIC, pursuant to a license from MasterCard.</FooterTermLine>
+              <FooterTermLine> The Everpay Debit Cards are issued by Edebit Group and Railsr, pursuant to licenses from MasterCard. The Biga Card is issued by Licensed electronic money institutions, Member FDIC, according to a license from MasterCard.</FooterTermLine>
               </FooterTermItems>
         </FooterMediaWrap>
 
