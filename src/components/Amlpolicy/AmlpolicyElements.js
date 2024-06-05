@@ -228,7 +228,7 @@ export const Safedata = styled.div`
   flex-direction: column;
   justify-content: center;
   margin: 55px 0;
-}
+`;
 
   @media screen and (max-width: 480px) {
     padding: 10px;
