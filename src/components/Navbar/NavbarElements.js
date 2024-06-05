@@ -98,6 +98,7 @@ export const Link = styled(LinkS)`
   padding: 0 1rem;
   font-weight: 500;
   align-items: center;
+  text-transform: uppercase;
   text-decoration: none;
   height: 100%;
   cursor: pointer;
