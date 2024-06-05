@@ -45,7 +45,7 @@ export const NavLogo = styled(LinkR)`
 
 export const Logo = styled.div`
   margin-right: 5px;
-  margin-top: 6px;
+  margin-top: 1px;
 `;
 
 export const MobileIcon = styled.div`
@@ -80,7 +80,7 @@ export const NavItem = styled.li`
   height: 80px;
   color: #2b2b2b; 
   display: flex;
-  padding: 0 1rem;
+  padding: 0 0.85rem;
   font-weight: 500;
   align-items: center;
   text-decoration: none;
@@ -95,7 +95,7 @@ export const NavItem = styled.li`
 
 export const Link = styled(LinkS)`
   display: flex;
-  padding: 0 1rem;
+  padding: 0 0.85rem;
   font-weight: 500;
   align-items: center;
   text-transform: uppercase;
@@ -123,8 +123,8 @@ export const NavBtnLink = styled(LinkR)`
   border-radius: 50px;
   background: #2dbe60;
   padding: 12px 22px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 6px;
   white-space: nowrap;
   font-weight: 500;
   outline: none;
