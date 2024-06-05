@@ -8,6 +8,7 @@ import {
 
 export const AmlPolicy = () => {
   return (
+    <Container>
          <Content>
             <Text>
                         <H1>AML Policy</H1>
@@ -38,6 +39,7 @@ export const AmlPolicy = () => {
                             </Cookies>
             </Text>
         </Content>
+    </Container>
   );
 };
 
