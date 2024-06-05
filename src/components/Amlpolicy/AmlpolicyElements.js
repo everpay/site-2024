@@ -85,6 +85,20 @@ export const H4 = styled.h4`
   text-align: left;
 `;
 
+export const P = styled.p`
+   align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+  color: "#1f1f30";
+  font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 32px;
+  text-align: left;
+`;
+
 export const Text = styled.span`
   text-align: left;
   margin-top: 24px;
