@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import Amlpolicy from "../components/Amlpolicy";
+import HeroSection from "../components/AmlPolicyHeroSection/index";
+import InfoSection from "../components/AmlPolicyInfoSection";
+import { AmlPolicyObjOne, AmlPolicyObjThree, AmlPolicyObjTwo } from "../components/AmlPolicyInfoSection/Data";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 
@@ -12,9 +14,17 @@ const AmlpolicyPage = () => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
+      <AmlPolicyHeroSection />
       <Amlpolicy />
+      <AmlPolicyInfoSection {...AmlPolicyeObjOne} />
+      <AmlPolicyInfoSection {...AmlPolicyObjTwo} />
+      <AmlPolicyInfoSection {...AmlPolicyObjThree} />
     </>
   );
 };
 
 export default AmlpolicyPage;
+
+
+
+
