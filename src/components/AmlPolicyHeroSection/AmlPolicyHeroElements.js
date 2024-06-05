@@ -156,22 +156,6 @@ export const Content = styled.div`
 `;
 
 
-export const H1 = styled.h1`
-   align-items: center;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 28px;
-    max-width: 360px;
-    width: 100%;
-  color: "#1f1f30";
-  font-size: 32px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    line-height: 36px;
-  text-align: left;
-`;
-
-
 export const H2 = styled.h2`
    align-items: center;
     display: flex;
@@ -187,40 +171,9 @@ export const H2 = styled.h2`
   text-align: left;
 `;
 
-export const H4 = styled.h4`
-   align-items: center;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 28px;
-    max-width: 360px;
-    width: 100%;
-  color: "#1f1f30";
-  font-size: 22px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    line-height: 36px;
-  text-align: left;
-`;
-export const H4 = styled.h4`
-   align-items: center;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 28px;
-    max-width: 360px;
-    width: 100%;
-  color: "#1f1f30";
-  font-size: 22px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    line-height: 36px;
-  text-align: left;
-`;
-
 export const Text = styled.span`
   text-align: left;
   margin-top: 24px;
   color: #1f1f30;
   font-size: 14px;
 `;
-
-
