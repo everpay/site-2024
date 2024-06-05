@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import {
   HeroBg,
   HeroBtnWrapper,
@@ -7,8 +6,6 @@ import {
   HeroContent,
   HeroH1,
   HeroP,
-  Logo,
-  Icon,
   Content,
   Text,
   Cookies,
