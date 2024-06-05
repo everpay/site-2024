@@ -1,11 +1,5 @@
 import React from "react";
 import {
-  HeroBg,
-  HeroBtnWrapper,
-  HeroContainer,
-  HeroContent,
-  HeroH1,
-  HeroP,
   Content,
   Text,
   Cookies,
@@ -14,19 +8,7 @@ import {
 
 export const AmlPolicy = () => {
   return (
-    <HeroContainer>
-      <HeroBg>
-      </HeroBg>
-      <HeroContent>
-        <HeroH1>Anti-Money Laundering Policy</HeroH1>
-        <HeroP>
-        We implemented best-of-class measures to combat financial crimes.
-        </HeroP>
-        <HeroBtnWrapper>
-        </HeroBtnWrapper>
-      </HeroContent>
-    </HeroContainer>
-        <Content>
+         <Content>
             <Text>
                         <H1>AML Policy</H1>
                             <H4>We're always looking for new ways to provide privacy for our customers.</H4>
