@@ -1,7 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import {
+  HeroBg,
+  HeroBtnWrapper,
+  HeroContainer,
+  HeroContent,
+  HeroH1,
+  HeroP,
   Container,
   Wrap,
   Logo,
@@ -13,6 +18,18 @@ import {
 
 export const AmlPolicy = () => {
   return (
+    <HeroContainer>
+      <HeroBg>
+      </HeroBg>
+      <HeroContent>
+        <HeroH1>Anti-Money Laundering Policy</HeroH1>
+        <HeroP>
+        We implemented best-of-class measures to combat financial crimes.
+        </HeroP>
+        <HeroBtnWrapper>
+        </HeroBtnWrapper>
+      </HeroContent>
+    </HeroContainer>
     <Container>
         <Wrap>
     <Icon to="/"><Logo><img src='https://res.cloudinary.com/lmj6rf6tz/image/upload/v1681518139/img/LogoSqr.png' width={48} height={48} alt='Everpay'/></Logo>
