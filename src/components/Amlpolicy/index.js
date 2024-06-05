@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import {
   Container,
+  Wrap,
   Logo,
   Icon,
   Content,
