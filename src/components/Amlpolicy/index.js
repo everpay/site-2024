@@ -10,8 +10,9 @@ import {
   Logo,
   Icon,
   Content,
-  H1,
   Text,
+  Cookies,
+  Safedata,
 } from "./AmlpolicyElements";
 
 export const AmlPolicy = () => {
