@@ -14,7 +14,7 @@ import AboutPage from "./pages/about";
 import ContactPage from "./pages/contact";
 import SigninPage from "./pages/signin";
 import SignupPage from "./pages/signup";
-import AmlpolicyPage from "./pages/amlpolicy";
+import AmlpolicyPage from "./pages/aml-policy";
 
 function App() {
   return (
