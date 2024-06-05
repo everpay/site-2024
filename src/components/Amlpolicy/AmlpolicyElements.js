@@ -216,11 +216,6 @@ export const Coookies = styled.div`
   justify-content: center;
   margin-bottom: -20px;
 `;
-  
-  @media screen and (max-width: 480px) {
-    padding: 10px;
-  }
-`;
 
 export const Safedata = styled.div`
   height: 100%;
@@ -228,9 +223,4 @@ export const Safedata = styled.div`
   flex-direction: column;
   justify-content: center;
   margin: 55px 0;
-`;
-
-  @media screen and (max-width: 480px) {
-    padding: 10px;
-  }
 `;
