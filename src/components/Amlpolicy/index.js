@@ -3,6 +3,9 @@ import {
   Container,
   Content,
   Text,
+  H1,
+  H4,
+  P,
   Cookies,
   Safedata,
 } from "./AmlpolicyElements";
