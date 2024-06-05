@@ -10,7 +10,7 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
+  font-size: 0.9rem;
   position: sticky;
   top: 0;
   opacity: 0.9;
@@ -69,7 +69,7 @@ export const NavMenu = styled.ul`
   align-items: center;
   list-style: none;
   text-align: center;
-  margin-right: -22px;
+  margin-right: 10px;
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -122,9 +122,9 @@ export const NavBtnLink = styled(LinkR)`
   border-radius: 50px;
   background: #2dbe60;
   padding: 12px 22px;
+  margin-left: 10px;
   margin-right: 10px;
   white-space: nowrap;
-  font-size: 1rem;
   font-weight: 500;
   outline: none;
   cursor: pointer;
@@ -193,8 +193,8 @@ export const NavBtnStartLink = styled(LinkR)`
   border-width: 1px !important;
   background-color: transparent;
   padding: 12px 22px;
+  margin-left: 10px;
   white-space: nowrap;
-  font-size: 1rem;
   font-weight: 500;
   outline: none;
   cursor: pointer;
