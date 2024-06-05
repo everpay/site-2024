@@ -128,22 +128,6 @@ export const Wrap = styled.div`
   }
 `;
 
-export const Icon = styled(Link)`
-  margin-left: 32px;
-  margin-top: 32px;
-  text-decoration: none;
-  color: #1f1f30;
-  font-weight: 700;
-  font-size: 32px;
-
-  justify-content: center;
-
-  @media screen and (max-width: 480px) {
-    margin-left: 16px;
-    margin-top: 8px;
-  }
-`;
-
 export const Content = styled.div`
   height: 100%;
   display: flex;
