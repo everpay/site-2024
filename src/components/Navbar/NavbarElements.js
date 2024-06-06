@@ -67,6 +67,7 @@ export const NavMenu = styled.ul`
   display: flex;
   align-items: center;
   list-style: none;
+  text-transform: uppercase;
   text-align: center;
   margin-right: 10px;
 
@@ -84,7 +85,7 @@ export const NavItem = styled.li`
   text-decoration: none;
   height: 100%;
   cursor: pointer;
-  color: ${({ lightText }) => (lightText ? "#4c4d4d" : "#2b2b2b")};
+  color: ${({ lightText }) => (lightText ? "#2b2b2b" : "#2b2b2b")};
   
   &.active {
     border-bottom: 3px solid #01bf71;
@@ -100,7 +101,7 @@ export const Link = styled(LinkS)`
   text-decoration: none;
   height: 100%;
   cursor: pointer;
-  color: ${({ lightText }) => (lightText ? "#4c4d4d" : "#2b2b2b")};
+  color: ${({ lightText }) => (lightText ? "#2b2b2b" : "#4c4d4d")};
   
   &.active {
     border-bottom: 3px solid #01bf71;
@@ -129,7 +130,8 @@ export const NavBtnLink = styled(LinkR)`
   cursor: pointer;
   transition: all 0.5s ease-in-out;
   text-decoration: none;
-
+  text-transform: uppercase;
+  
   &:hover {
     transition: all 0.5s ease-in-out;
     background: #26a151;
@@ -191,6 +193,7 @@ export const NavBtnStartLink = styled(LinkR)`
   border-color: rgba(0,0,0,.08);
   border-width: 1px !important;
   background-color: transparent;
+  text-transform: uppercase;
   padding: 12px 22px;
   margin-left: 10px;
   white-space: nowrap;
