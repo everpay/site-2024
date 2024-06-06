@@ -1,14 +1,11 @@
 import { Route, Switch } from "react-router";
+import '@radix-ui/themes/styles.css';
 import "./App.css";
 import Footer from "./components/Footer";
-
 import Home from "./pages";
 import PlatformPage from "./pages/platform";
 import PaymentsPage from "./pages/payments";
-
-
 import PricingPage from "./pages/pricing";
-
 import ShopPage from "./pages/shop";
 import AboutPage from "./pages/about";
 import ContactPage from "./pages/contact";
@@ -21,7 +18,6 @@ function App() {
     <>
       <Switch>
         <Route path="/" component={Home} exact />
-
         <Route path="/platform" component={PlatformPage} exact />
         <Route path="/payments" component={PaymentsPage} exact />
         <Route path="/pricing" component={PricingPage} exact />
