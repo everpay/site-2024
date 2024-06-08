@@ -1,5 +1,4 @@
 import { Route, Switch } from "react-router";
-import '@radix-ui/themes/styles.css';
 import "./App.css";
 import Footer from "./components/Footer";
 import Home from "./pages";
