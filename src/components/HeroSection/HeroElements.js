@@ -18,8 +18,8 @@ export const HeroContainer = styled.div`
     right: 0;
     left: 0;
     bottom: 0;
-    background: linear-gradient(190deg, #ffffff 0%, rgba(0, 0, 0, 0.2) 100%),
-      linear-gradient(190deg, #FFFFFF 0%, rgba(0, 0, 0, 0.2) 100%);
+    background: linear-gradient(90deg, #ffffff 0%, rgba(0, 0, 0, 0.2) 100%),
+      linear-gradient(90deg, #FFFFFF 0%, rgba(0, 0, 0, 0.2) 100%);
     z-index: 2;
   }
 `;
@@ -45,7 +45,7 @@ export const VideoBg = styled.video`
 
 export const HeroContent = styled.div`
   z-index: 3;
-  max-width: 1000px;
+  max-width: 800px;
   position: absolute;
   padding: 50px 40px 8px 40px;
   display: flex;
