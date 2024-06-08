@@ -7,8 +7,8 @@ export const FooterContainer = styled.footer`
   flex-direction: column;
   align-items: center;
   position: relative;
-    background: linear-gradient(180deg, rgb(48, 36, 62, 1) 0%, rgba(0, 0, 0, 0.6) 100%),
-      linear-gradient(180deg, rgb(48, 36, 62, 1) 0%, rgba(20, 9, 38, 1)100%);
+  background-image: url("images/layeredfooter.svg");
+  background-size: cover;
     z-index: 1;
   }
 `;
