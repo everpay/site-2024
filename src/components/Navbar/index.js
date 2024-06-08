@@ -50,9 +50,7 @@ import {
             </NavLogo>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav" onClick={toggle}> <span></span> <span></span> <span></span> </button>
-          {/*    <MobileIcon onClick={toggle}>
-             <FaBars />           
-            </MobileIcon>*/}    
+ 
             <NavMenu>
               <NavItem>
                 <Link
