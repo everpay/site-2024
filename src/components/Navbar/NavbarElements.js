@@ -192,9 +192,9 @@ export const NavBtnStartLink = styled(LinkR)`
   border-radius: 50px;
   border-color: rgba(0,0,0,.08);
   border-width: 1px !important;
-  background-color: transparent;
+  background-color: #fff;
   text-transform: uppercase;
-  padding: 12px 22px;
+  padding: 16px 25px;
   margin-left: 10px;
   white-space: nowrap;
   font-weight: 500;
