@@ -19,7 +19,7 @@ export const HeroContainer = styled.div`
     left: 0;
     bottom: 0;
     background: linear-gradient(90deg, #ffffff 0%, rgba(0, 0, 0, 0.2) 100%),
-      linear-gradient(90deg, #FFFFFF 0%, rgba(0, 0, 0, 0.2) 100%);
+      linear-gradient(0deg, #FFFFFF 0%, rgba(0, 0, 0, 0.2) 100%);
     z-index: 2;
   }
 `;
