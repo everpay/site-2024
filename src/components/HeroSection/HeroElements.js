@@ -73,7 +73,7 @@ export const HeroH1 = styled.h1`
 `;
 
 export const HeroP = styled.p`
-  margin-top: -10px;
+  margin-top: 10;
   color: rgb(0 0 0);
   text-shadow: 0 1 black;
   font-size: 24px;
@@ -82,7 +82,7 @@ export const HeroP = styled.p`
 
   @media screen and (max-width: 768px) {
     font-size: 24px;
-    margin-top: -10px;
+    margin-top: 10px;
   }
 
   @media screen and (max-width: 480px) {
