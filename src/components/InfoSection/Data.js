@@ -9,7 +9,7 @@ export const homeObjOne = {
     "Merchant Hub is a feature complete, payments and payout platform that enables you to customize various account-centric product experiences including - Credit Card Acquiring, Alternative Payment Methods, P2P payments, Crypto payments and payouts.",
   buttonLabel: "Explore MerchantHub",
   imgStart: true,
-  img: require("../../images/svg-2.svg").default,
+  img: require("../../images/request-money.png").default,
   alt: "Payments",
   dark: true,
   primary: true,
